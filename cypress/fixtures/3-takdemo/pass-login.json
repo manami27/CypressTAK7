@@ -1,0 +1,19 @@
+{
+  "validLogin": [
+    {
+      "validUser": "demouser{enter}",
+      "validPass": "testingisfun99{enter}",
+      "verifyName": "demouser"
+    },
+    {
+      "validUser": "fav_user{enter}",
+      "validPass": "testingisfun99{enter}",
+      "verifyName": "fav_user"
+    },
+    {
+      "validUser": "existing_orders_user{enter}",
+      "validPass": "testingisfun99{enter}",
+      "verifyName": "existing_orders_user"
+    }
+  ]
+}

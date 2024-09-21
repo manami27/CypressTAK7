@@ -1,0 +1,16 @@
+{
+  "failed_Login": [
+    {
+      "username": "userdemo{enter}",
+      "password": "testingisfun99{enter}"
+    },
+    {
+      "username": "favuser{enter}",
+      "password": "testingisfun99{enter}"
+    },
+    {
+      "username": "locked_user{enter}",
+      "password": "testingisfun99{enter}"
+    }
+  ]
+}
