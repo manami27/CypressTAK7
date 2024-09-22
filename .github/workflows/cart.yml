@@ -1,8 +1,6 @@
-name: Cypress Schedule
+name: Last Session on push
 
-on:
-  schedule:
-    - cron: "5 * * * *"
+on: push
 
 jobs:
   cypress-run:
@@ -16,4 +14,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          spec: cypress/e2e/3-takdemo/cart.cy.js
+          spec: cypress/e2e/4-taklast/**.cy.js

@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "login-orangehrm": "npx cypress run --spec cypress/e2e/3-takdemologin.cy.js --browser chrome"
+    "cart": "npx cypress run --spec cypress/e2e/4-taklast/cart.cy.js --browser chrome",
+    "takdemo": "npx cypress run --spec cypress/e2e/4-taklast/**.cy.js --browser chrome",
+    "takfolder": "npx cypress run --spec cypress/e2e/**tak**/**.cy.js --browser chrome"
   },
   "author": "",
   "license": "ISC",

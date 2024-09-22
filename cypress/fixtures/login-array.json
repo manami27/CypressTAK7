@@ -1,0 +1,14 @@
+{
+  "loginArray": [
+    {
+      "username": "demouser{enter}",
+      "password": "testingisfun99{enter}",
+      "verifUser": "demouser"
+    },
+    {
+      "username": "fav_user{enter}",
+      "password": "testingisfun99{enter}",
+      "verifUser": "fav_user"
+    }
+  ]
+}
